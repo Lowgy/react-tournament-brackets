@@ -1,6 +1,6 @@
 {
   "name": "@lowgy/react-tournament-brackets",
-  "version": "1.0.5",
+  "version": "1.0.12",
   "description": "A react component to visualize bracket leaderboards",
   "main": "dist/bundle.js",
   "types": "dist/index.d.ts",
@@ -25,22 +25,22 @@
     "styled-components": "^4.1.3"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
+    "@babel/core": "^7.22.17",
     "@babel/plugin-transform-runtime": "^7.12.1",
     "@babel/preset-typescript": "^7.14.5",
     "@storybook/addon-actions": "^6.5.9",
-    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-essentials": "^7.4.1",
     "@storybook/addon-links": "^6.5.9",
     "@storybook/addon-storysource": "^6.5.9",
-    "@storybook/react": "^6.5.9",
+    "@storybook/react": "^7.4.1",
     "@testing-library/react": "^13.3.0",
     "@types/jest": "^29.0.2",
     "@types/styled-components": "^5.1.10",
     "@typescript-eslint/parser": "^5.59.9",
     "babel-eslint": "^10.1.0",
-    "babel-loader": "^8.1.0",
-    "babel-plugin-module-resolver": "^4.1.0",
-    "copy-webpack-plugin": "^5.1.1",
+    "babel-loader": "^8.3.0",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^3.6.0",
     "deepmerge": "^4.2.2",
     "eslint": "^8.34.0",
@@ -69,7 +69,7 @@
     "ts-loader": "^8.2.0",
     "typescript": "^4.3.4",
     "url-loader": "^4.1.0",
-    "webpack": "^4.43.0",
+    "webpack": "^5.88.2",
     "webpack-cli": "^4.10.0"
   },
   "repository": {
@@ -79,5 +79,9 @@
   "bugs": {
     "url": "https://github.com/g-loot/react-tournament-brackets/issues"
   },
-  "homepage": "https://github.com/g-loot/react-tournament-brackets#readme"
+  "homepage": "https://github.com/g-loot/react-tournament-brackets#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-react": "^7.22.15"
+  }
 }
