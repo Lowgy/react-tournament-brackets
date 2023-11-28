@@ -30,7 +30,7 @@ export type Match = {
 
   tournamentRoundText?: string;
 
-  startTime: string;
+  startTime: number | null;
 
   state: 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | string;
 

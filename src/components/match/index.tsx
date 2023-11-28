@@ -31,17 +31,12 @@ function Match({
     <Wrapper>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
         <TopText>
-          {match.startTime !== ''
-            ? `${new Date(parseInt(match.startTime) * 1000).toLocaleDateString(
-                'en-US',
-                {
-                  year: 'numeric',
-                  month: 'long',
-                  day: 'numeric',
-                }
-              )}  @ ${new Date(
-                parseInt(match.startTime) * 1000
-              ).toLocaleTimeString([], {
+          {match.startTime !== null
+            ? `${new Date(match.startTime * 1000).toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}  @ ${new Date(match.startTime * 1000).toLocaleTimeString([], {
                 timeZoneName: 'short',
                 hour: '2-digit',
                 minute: '2-digit',
