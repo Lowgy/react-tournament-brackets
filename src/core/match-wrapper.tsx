@@ -30,6 +30,8 @@ function Match({
   const topParty = sortedTeams?.[0] ? sortedTeams[0] : {};
   const bottomParty = sortedTeams?.[1] ? sortedTeams[1] : {};
 
+  console.log(topParty, 'Player 1', bottomParty, 'Player 2');
+
   const topHovered =
     !Number.isNaN(hoveredPartyId) &&
     topParty?.id !== undefined &&
@@ -48,11 +50,11 @@ function Match({
   const topWon =
     topParty.status === MATCH_STATES.WALK_OVER ||
     participantWalkedOver(topParty) ||
-    topParty.isWinner;
+    topParty.roundScore === match.maxRoundScore;
   const bottomWon =
     bottomParty.status === MATCH_STATES.WALK_OVER ||
     participantWalkedOver(bottomParty) ||
-    bottomParty.isWinner;
+    bottomParty.roundScore === match.maxRoundScore;
 
   const matchState = MATCH_STATES[match.state];
 

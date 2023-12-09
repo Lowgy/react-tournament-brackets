@@ -32,7 +32,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'WB R1 M2',
       nextMatchId: 5,
       nextLooserMatchId: 8,
-      startTime: '2021-07-27T15:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R1',
       state: 'SCORE_DONE',
       participants: [
@@ -57,7 +57,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'WB R1 M3',
       nextMatchId: 6,
       nextLooserMatchId: 9,
-      startTime: '2021-07-27T15:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R1',
       state: 'SCORE_DONE',
       participants: [
@@ -107,7 +107,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'WB R2 M1',
       nextMatchId: 7,
       nextLooserMatchId: 11,
-      startTime: '2021-07-27T16:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [
@@ -132,7 +132,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'WB R2 M2',
       nextMatchId: 7,
       nextLooserMatchId: 10,
-      startTime: '2021-07-27T16:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [
@@ -157,7 +157,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'WB R3 M1',
       nextMatchId: 14,
       nextLooserMatchId: 13,
-      startTime: '2021-07-27T17:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R3',
       state: 'SCORE_DONE',
       participants: [
@@ -234,7 +234,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'LB R2 M1',
       nextMatchId: 12,
       nextLooserMatchId: null,
-      startTime: '2021-07-27T17:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [
@@ -259,7 +259,7 @@ const dataDoubleLastGameLower: { upper: Match[]; lower: Match[] } = {
       name: 'LB R2 M2',
       nextMatchId: 12,
       nextLooserMatchId: null,
-      startTime: '2021-07-27T18:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [

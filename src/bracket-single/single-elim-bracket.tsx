@@ -126,7 +126,7 @@ const SingleEliminationBracket = ({
                           canvasPadding={canvasPadding}
                           width={width}
                           numOfRounds={columns.length}
-                          tournamentRoundText={match.tournamentRoundText}
+                          tournamentRoundText={match.name}
                           columnIndex={columnIndex}
                         />
                       )}

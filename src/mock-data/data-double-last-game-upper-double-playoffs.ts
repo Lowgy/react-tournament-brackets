@@ -25,7 +25,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'WB R1 M2',
       nextMatchId: 'WB R2 M1',
       nextLooserMatchId: 'LB R1 M1',
-      startTime: '2021-07-27T15:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R1',
       state: 'SCORE_DONE',
       participants: [
@@ -50,7 +50,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'WB R1 M3',
       nextMatchId: 'WB R2 M2',
       nextLooserMatchId: 'LB R1 M2',
-      startTime: '2021-07-27T15:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R1',
       state: 'SCORE_DONE',
       participants: [
@@ -93,7 +93,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'WB R2 M1',
       nextMatchId: 'WB R3 M1',
       nextLooserMatchId: 'LB R2 M1',
-      startTime: '2021-07-27T16:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [
@@ -118,7 +118,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'WB R2 M2',
       nextMatchId: 'WB R3 M1',
       nextLooserMatchId: 'LB R2 M2',
-      startTime: '2021-07-27T16:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [
@@ -143,7 +143,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'WB R3 M1',
       nextMatchId: 'WB R5 M1',
       nextLooserMatchId: 'LB R4 M1',
-      startTime: '2021-07-27T17:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R3',
       state: 'SCORE_DONE',
       participants: [
@@ -234,7 +234,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'LB R2 M1',
       nextMatchId: 'LB R3 M1',
       nextLooserMatchId: null,
-      startTime: '2021-07-27T17:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [
@@ -259,7 +259,7 @@ const dataDoublePlayoffs: { upper: Match[]; lower: Match[] } = {
       name: 'LB R2 M2',
       nextMatchId: 'LB R3 M1',
       nextLooserMatchId: null,
-      startTime: '2021-07-27T18:00:00+00:00',
+      startTime: 0,
       tournamentRound: 'R2',
       state: 'SCORE_DONE',
       participants: [

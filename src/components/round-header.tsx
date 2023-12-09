@@ -62,7 +62,7 @@ export default function RoundHeader({
           'Semi-final'}
         {!roundHeader.roundTextGenerator &&
           columnIndex + 1 < numOfRounds - 1 &&
-          `Round ${tournamentRoundText}`}
+          tournamentRoundText}
         {roundHeader.roundTextGenerator &&
           roundHeader.roundTextGenerator(columnIndex + 1, numOfRounds)}
       </Text>

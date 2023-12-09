@@ -62,8 +62,8 @@ function Match({
           hovered={topHovered}
           onClick={() => onPartyClick?.(topParty, topWon)}
         >
-          <Team>{topParty?.name}</Team>
-          <Score won={topWon}>{topParty?.resultText}</Score>
+          <Team>{topParty?.playerData?.nickname}</Team>
+          <Score won={topWon}>{topParty?.roundScore}</Score>
         </Side>
         <Line highlighted={topHovered || bottomHovered} />
         <Side
@@ -73,8 +73,8 @@ function Match({
           hovered={bottomHovered}
           onClick={() => onPartyClick?.(bottomParty, bottomWon)}
         >
-          <Team>{bottomParty?.name}</Team>
-          <Score won={bottomWon}>{bottomParty?.resultText}</Score>
+          <Team>{bottomParty?.playerData?.nickname}</Team>
+          <Score won={bottomWon}>{bottomParty?.roundScore}</Score>
         </Side>
       </StyledMatch>
       <BottomText>{bottomText ?? ' '}</BottomText>

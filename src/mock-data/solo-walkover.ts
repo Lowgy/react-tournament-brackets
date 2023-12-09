@@ -7,7 +7,7 @@ const soloWalkover: Match[] = [
     nextMatchId: 20463,
     nextLooserMatchId: null,
     tournamentRoundText: '2',
-    startTime: '2021-07-28T00:00:00.000+00:00',
+    startTime: 0,
     state: 'SCORE_DONE',
     participants: [
       {
@@ -32,7 +32,7 @@ const soloWalkover: Match[] = [
     nextMatchId: 20464,
     nextLooserMatchId: null,
     tournamentRoundText: '1',
-    startTime: '2021-07-27T23:00:00.000+00:00',
+    startTime: 0,
     state: 'SCORE_DONE',
     participants: [
       {
@@ -57,7 +57,7 @@ const soloWalkover: Match[] = [
     nextMatchId: 20464,
     nextLooserMatchId: null,
     tournamentRoundText: '1',
-    startTime: '2021-07-27T23:00:00.000+00:00',
+    startTime: 0,
     state: 'WALK_OVER',
     participants: [
       {
@@ -75,7 +75,7 @@ const soloWalkover: Match[] = [
     nextMatchId: 20463,
     nextLooserMatchId: null,
     tournamentRoundText: '2',
-    startTime: '2021-07-28T00:00:00.000+00:00',
+    startTime: 0,
     state: 'WALK_OVER',
     participants: [
       {
@@ -100,7 +100,7 @@ const soloWalkover: Match[] = [
     nextMatchId: 20467,
     nextLooserMatchId: null,
     tournamentRoundText: '1',
-    startTime: '2021-07-27T23:00:00.000+00:00',
+    startTime: 0,
     state: 'WALK_OVER',
     participants: [
       {
@@ -118,7 +118,7 @@ const soloWalkover: Match[] = [
     nextMatchId: 20467,
     nextLooserMatchId: null,
     tournamentRoundText: '1',
-    startTime: '2021-07-27T23:00:00.000+00:00',
+    startTime: 0,
     state: 'WALK_OVER',
     participants: [
       {
@@ -136,7 +136,7 @@ const soloWalkover: Match[] = [
     nextMatchId: null,
     nextLooserMatchId: null,
     tournamentRoundText: '3',
-    startTime: '2021-07-28T01:00:00.000+00:00',
+    startTime: 0,
     state: 'DONE',
     participants: [
       {

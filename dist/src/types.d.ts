@@ -1,10 +1,20 @@
 import React, { ReactElement } from 'react';
 export type Participant = {
-    id: string | number;
+    id?: string | number;
+    roundScore?: number;
+    player?: number | null;
     isWinner?: boolean;
     name?: string;
     status?: 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | string | null;
     resultText?: string | null;
+    playerData?: {
+        uuid: string;
+        nickname: string;
+        seasonEloRate: number;
+        seasonEloRank: number | null;
+        seedNumber: number;
+        personalBest: number;
+    };
     [key: string]: any;
 };
 export type Match = {
@@ -12,11 +22,12 @@ export type Match = {
     href?: string;
     name?: string;
     nextMatchId: number | string | null;
+    maxRoundScore?: number;
     nextLooserMatchId?: number | string;
     tournamentRoundText?: string;
-    startTime: string;
-    state: 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | string;
-    participants: Participant[];
+    startTime: number | null;
+    state: 'PLAYED' | 'NO_SHOW' | 'WALK_OVER' | 'NO_PARTY' | string | null;
+    participants: Participant[] | [];
     [key: string]: any;
 };
 export type Options = {

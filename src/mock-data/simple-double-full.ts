@@ -8,7 +8,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20515,
       nextLooserMatchId: 20502,
       tournamentRoundText: 'UB 3',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -33,7 +33,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20512,
       nextLooserMatchId: 20506,
       tournamentRoundText: 'UB 2',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -58,7 +58,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20513,
       nextLooserMatchId: 20505,
       tournamentRoundText: 'UB 1',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -83,7 +83,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: null,
       nextLooserMatchId: null,
       tournamentRoundText: 'UB 4',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -108,7 +108,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20510,
       nextLooserMatchId: 20503,
       tournamentRoundText: 'UB 1',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -133,7 +133,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20513,
       nextLooserMatchId: 20505,
       tournamentRoundText: 'UB 1',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -158,7 +158,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20512,
       nextLooserMatchId: 20504,
       tournamentRoundText: 'UB 2',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -183,7 +183,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20510,
       nextLooserMatchId: 20503,
       tournamentRoundText: 'UB 1',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -210,7 +210,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20515,
       nextLooserMatchId: null,
       tournamentRoundText: 'LB 4',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -235,7 +235,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20506,
       nextLooserMatchId: null,
       tournamentRoundText: 'LB 1',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -260,7 +260,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20507,
       nextLooserMatchId: null,
       tournamentRoundText: 'LB 2',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -285,7 +285,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20504,
       nextLooserMatchId: null,
       tournamentRoundText: 'LB 1',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -310,7 +310,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20507,
       nextLooserMatchId: null,
       tournamentRoundText: 'LB 2',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
@@ -335,7 +335,7 @@ const simpleDoubleFull: { upper: Match[]; lower: Match[] } = {
       nextMatchId: 20502,
       nextLooserMatchId: null,
       tournamentRoundText: 'LB 3',
-      startTime: 'August 05, 2021',
+      startTime: 0,
       state: 'SCORE_DONE',
       participants: [
         {
