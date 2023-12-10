@@ -10,6 +10,7 @@ import {
   Wrapper,
   Line,
   Anchor,
+  Seed,
 } from './styles';
 
 function Match({
@@ -56,23 +57,25 @@ function Match({
       </div>
       <StyledMatch>
         <Side
-          onMouseEnter={() => onMouseEnter(topParty.id)}
+          onMouseEnter={() => onMouseEnter(topParty.player)}
           onMouseLeave={onMouseLeave}
           won={topWon}
           hovered={topHovered}
           onClick={() => onPartyClick?.(topParty, topWon)}
         >
+          <Seed>{topParty?.player + 1 || ''}</Seed>
           <Team>{topParty?.playerData?.nickname}</Team>
           <Score won={topWon}>{topParty?.roundScore}</Score>
         </Side>
         <Line highlighted={topHovered || bottomHovered} />
         <Side
-          onMouseEnter={() => onMouseEnter(bottomParty.id)}
+          onMouseEnter={() => onMouseEnter(bottomParty.player)}
           onMouseLeave={onMouseLeave}
           won={bottomWon}
           hovered={bottomHovered}
           onClick={() => onPartyClick?.(bottomParty, bottomWon)}
         >
+          <Seed>{bottomParty?.player + 1 || ''}</Seed>
           <Team>{bottomParty?.playerData?.nickname}</Team>
           <Score won={bottomWon}>{bottomParty?.roundScore}</Score>
         </Side>

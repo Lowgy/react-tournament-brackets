@@ -28,7 +28,10 @@ export const StyledMatch = styled.div`
   justify-content: space-between;
 `;
 
-export const Team = styled.div``;
+export const Team = styled.div`
+  margin-right: auto;
+  margin-left: 10px;
+`;
 
 interface ScoreProps {
   won?: boolean;
@@ -45,6 +48,20 @@ export const Score = styled.div<ScoreProps>`
   color: ${({ theme, won }: any) =>
     won ? theme.textColor.highlighted : theme.textColor.dark};
 `;
+
+interface SeedProps {
+  seed?: number;
+}
+export const Seed = styled.div<SeedProps>`
+  display: flex;
+  height: 100%;
+  align-items: center;
+  width: 10%;
+  justify-content: center;
+  background: ${({ theme }: any) => theme.score.background.lostColor};
+  color: ${({ theme }: any) => theme.textColor.dark};
+`;
+
 interface SideProps {
   won?: boolean;
   hovered?: boolean;
@@ -53,8 +70,6 @@ export const Side = styled.div<SideProps>`
   display: flex;
   height: 100%;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 0 0 1rem;
   background: ${({ theme, won }: any) =>
     won ? theme.matchBackground.wonColor : theme.matchBackground.lostColor};
 

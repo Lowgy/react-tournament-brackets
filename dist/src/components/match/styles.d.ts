@@ -7,6 +7,10 @@ interface ScoreProps {
     won?: boolean;
 }
 export declare const Score: import("styled-components").StyledComponent<"div", any, ScoreProps, never>;
+interface SeedProps {
+    seed?: number;
+}
+export declare const Seed: import("styled-components").StyledComponent<"div", any, SeedProps, never>;
 interface SideProps {
     won?: boolean;
     hovered?: boolean;
